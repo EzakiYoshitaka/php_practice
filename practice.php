@@ -39,3 +39,37 @@ $calendar_2018 = [
 ];
 
 echo $calendar_2018["December"];
+
+$a = 3;
+$b = 3;
+$c = "3";
+
+var_dump($a == $b);
+
+for($i = 0; $i < 10; $i ++){
+    echo $i ;
+}
+
+$total = 0;
+echo $total ;
+
+for($i = 0; $i <= 100 ; $i ++){
+    $total += $i;
+}
+
+echo $total;
+
+$fruits = array("apple", "orege", "lemon") ;
+echo count($fruits) ;
+
+echo count($calendar_2018);
+
+for($i = 0; $i < count($fruits); $i ++){
+    echo "要素は". $fruits[$i] ;
+    echo "\n";
+}
+
+foreach($fruits as $fruits){
+    echo "要素は".$fruits;
+    echo "\n" ;
+}
