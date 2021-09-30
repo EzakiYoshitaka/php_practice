@@ -4,18 +4,18 @@
 
 //task1.
 function double($a){
-    $risult = 0 ;
-    $risult = $a * 2 ;
-    return $risult ;
+    $result = 0 ;
+    $result = $a * 2 ;
+    return $result ;
 }
 
 echo double(4) ."\n";
 
 //task2.
 function add($b, $c){
-    $risult = 0 ;
-    $risult = $b + $c ;
-    return $risult ;
+    $result = 0 ;
+    $result = $b + $c ;
+    return $result ;
 }
 
 echo add(5,2) ."\n";
@@ -24,10 +24,10 @@ echo add(5,2) ."\n";
 $arr = array(1, 3, 5, 7, 9);
 
 function multiplication($arr){
-    $risult = 1 ;
+    $result = 1 ;
     foreach($arr as $ar){
-        $risult *= $ar ;
-    } return $risult ;
+        $result *= $ar ;
+    } return $result ;
 }
 
 echo multiplication($arr) ."\n";
